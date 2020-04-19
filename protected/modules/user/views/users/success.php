@@ -1,0 +1,1 @@
+<h3>Order confirmed. Order id is: <?php echo $order_id; ?></h3>
