@@ -2,7 +2,7 @@
 Basic shopping cart in PHP.
 
 ## Requirements
-PHP, Mysql, Yii
+PHP, Mysql, Yii Framework 1.1
 
 ## Database
 Please Import db_changes.sql file from PHPMyAdmin or some other tool, After that please change database credentials in protected/config/database.php file   
@@ -26,3 +26,7 @@ CMS - Admin Login
 4. Allow user to add products to cart
 5. Display cart to add/ remove products
 6. Checkout - Cash on Delivery. (order completed)
+
+## Information
+- Created two modules in Yii framework one for admin & other one for front end user. So both user are generating different session.
+- Please load Yii framework, I have not committed because of framework large size.
